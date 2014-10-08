@@ -1,0 +1,28 @@
+{
+  "name": "apigee-remote-proxy",
+  "version": "0.9.0",
+  "license": "MIT",
+  "description": "A Proxy that installs on Apigee Edge to expose key pieces of Apigee functionality to remote systems via a REST API.",
+  "keywords": [
+    "apigee",
+    "a127"
+  ],
+  "author": "Scott Ganyo <sganyo@apigee.com>",
+  "main": "lib/index.js",
+  "dependencies":  {
+    "commander": "2.3.x",
+    "inquirer": "0.8.x",
+    "apigeetool": "0.1.x"
+  },
+  "devDependencies": {
+   },
+  "scripts": {
+  },
+  "bin": {
+    "deployApigeeRemoteProxy": "bin/deploy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/apigee/apigee-remote-proxy.git"
+  }
+}
