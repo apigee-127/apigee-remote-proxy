@@ -12,7 +12,9 @@
   "dependencies":  {
     "commander": "2.3.x",
     "inquirer": "0.8.x",
-    "apigeetool": "0.1.x"
+    "apigeetool": "0.1.x",
+    "tmp": "0.0.24",
+    "ncp": "1.0.x"
   },
   "devDependencies": {
    },

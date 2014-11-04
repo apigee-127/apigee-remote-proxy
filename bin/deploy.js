@@ -33,10 +33,11 @@ options
   .option('-u, --username <username>', 'username or email')
   .option('-p, --password <password>', 'password')
   .option('-e, --environment <env>', 'environment (eg. test,production)')
+  .option('-v, --virtualhosts <virtualhosts>', 'virtual hosts')
   .option('-d, --debug', 'turn on debug/verbose')
   .parse(process.argv);
 
 lib.deployRemoteProxy(options, function(err, reply) {
-  if (err) { return console.err(err); }
+  if (err) { return console.log(err); }
   console.log(reply);
 });

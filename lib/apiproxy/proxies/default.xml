@@ -184,7 +184,6 @@
         <BasePath>/apigee-remote-proxy</BasePath>
         <Properties/>
         <VirtualHost>default</VirtualHost>
-        <VirtualHost>secure</VirtualHost>
     </HTTPProxyConnection>
     <RouteRule name="newproxy">
       <Condition>(proxy.pathsuffix MatchesPath &quot;/v2/**&quot;)</Condition>
