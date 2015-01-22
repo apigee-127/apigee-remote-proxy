@@ -1,6 +1,6 @@
 {
   "name": "apigee-remote-proxy",
-  "version": "0.10.1",
+  "version": "0.10.2",
   "license": "MIT",
   "description": "A Proxy that installs on Apigee Edge to expose key pieces of Apigee functionality to remote systems via a REST API.",
   "keywords": [
