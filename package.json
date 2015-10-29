@@ -10,11 +10,11 @@
   "author": "Scott Ganyo <sganyo@apigee.com>",
   "main": "lib/index.js",
   "dependencies": {
-    "commander": "2.3.x",
-    "inquirer": "0.8.x",
-    "apigeetool": "0.1.x",
-    "tmp": "0.0.24",
-    "ncp": "1.0.x"
+    "apigeetool": "^0.6.0",
+    "commander": "2.9.0",
+    "cpr": "^0.4.3",
+    "inquirer": "^0.11.0",
+    "tmp": "^0.0.28"
   },
   "devDependencies": {},
   "scripts": {},
