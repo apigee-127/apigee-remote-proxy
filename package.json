@@ -12,8 +12,8 @@
   "dependencies": {
     "apigeetool": "^0.6.0",
     "commander": "2.9.0",
-    "cpr": "^0.4.3",
-    "inquirer": "^0.11.0",
+    "cpr": "^1.0.0",
+    "inquirer": "^0.12.0",
     "tmp": "^0.0.28"
   },
   "devDependencies": {},
